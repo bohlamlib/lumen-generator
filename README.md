@@ -1,9 +1,9 @@
 # Lumen Generator
 
-[![Total Downloads](https://poser.pugx.org/flipbox/lumen-generator/d/total.svg)](https://packagist.org/packages/flipbox/lumen-generator)
-[![Latest Stable Version](https://poser.pugx.org/flipbox/lumen-generator/v/stable.svg)](https://packagist.org/packages/flipbox/lumen-generator)
-[![Latest Unstable Version](https://poser.pugx.org/flipbox/lumen-generator/v/unstable.svg)](https://packagist.org/packages/flipbox/lumen-generator)
-[![License](https://poser.pugx.org/flipbox/lumen-generator/license.svg)](https://packagist.org/packages/flipbox/lumen-generator)
+[![Total Downloads](https://poser.pugx.org/bohlam/lumen-generator/d/total.svg)](https://packagist.org/packages/bohlam/lumen-generator)
+[![Latest Stable Version](https://poser.pugx.org/bohlam/lumen-generator/v/stable.svg)](https://packagist.org/packages/bohlam/lumen-generator)
+[![Latest Unstable Version](https://poser.pugx.org/bohlam/lumen-generator/v/unstable.svg)](https://packagist.org/packages/bohlam/lumen-generator)
+[![License](https://poser.pugx.org/bohlam/lumen-generator/license.svg)](https://packagist.org/packages/bohlam/lumen-generator)
 
 Do you miss any Laravel code generator on your Lumen project?
 If yes, then you're in the right place.
@@ -13,7 +13,7 @@ If yes, then you're in the right place.
 To use _some_ generators command in Lumen (just like you do in Laravel), you need to add this package:
 
 ```sh
-composer require flipbox/lumen-generator
+composer require bohlam/lumen-generator
 ```
 
 ## Configuration
@@ -75,6 +75,7 @@ route:list        Display all registered routes.
 `php artisan tinker path/to/tinker/script.php`
 
 script.php example:
+
 ```
 $environment = app()->environment();
 $output = new Symfony\Component\Console\Output\ConsoleOutput();
